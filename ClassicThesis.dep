@@ -1,0 +1,186 @@
+\RequireVersions{
+  *{application}{pdfTeX}  {0000/00/00 v1.40.26}
+  *{format} {LaTeX2e}     {2023-11-01 v2.e}
+  *{package}{silence}     {2012/07/02 v1.5b}
+  *{package}{snapshot}    {2020/06/17 v2.14}
+  *{class}  {scrreprt}    {2023/07/07 v3.41}
+  *{package}{scrkbase}    {2023/07/07 v3.41}
+  *{package}{scrbase}     {2023/07/07 v3.41}
+  *{package}{scrlfile}    {2023/07/07 v3.41}
+  *{package}{scrlfile-hook}{2023/07/07 v3.41}
+  *{package}{scrlogo}     {2023/07/07 v3.41}
+  *{package}{keyval}      {2022/05/29 v1.15}
+  *{package}{tocbasic}    {2023/07/07 v3.41}
+  *{file}   {scrsize11pt.clo}{2023/07/07 v3.41}
+  *{package}{typearea}    {2023/07/07 v3.41}
+  *{file}   {classicthesis-config.tex}{0000/00/00 v0.0}
+  *{package}{inputenc}    {2021/02/14 v1.3d}
+  *{package}{fontenc}     {0000/00/00 v0.0}
+  *{package}{babel}       {2024/02/07 v24.2}
+  *{file}   {bblopts.cfg} {2005/09/08 v0.1}
+  *{file}   {ngerman.ldf} {2024/01/19 v2.14}
+  *{file}   {american.ldf}{2017/06/06 v3.3r}
+  *{file}   {babel-american.tex}{0000/00/00 v0.0}
+  *{file}   {babel-ngerman.tex}{0000/00/00 v0.0}
+  *{package}{csquotes}    {2022-09-14 v5.2n}
+  *{package}{etoolbox}    {2020/10/05 v2.5k}
+  *{file}   {csquotes.def}{2022-09-14 v5.2n}
+  *{file}   {csquotes.cfg}{0000/00/00 v0.0}
+  *{package}{biblatex}    {2023/03/05 v3.19}
+  *{package}{pdftexcmds}  {2020-06-27 v0.33}
+  *{package}{infwarerr}   {2019/12/03 v1.5}
+  *{package}{iftex}       {2022/02/03 v1.0f}
+  *{package}{ltxcmds}     {2023-12-04 v1.26}
+  *{package}{kvoptions}   {2022-06-15 v3.15}
+  *{package}{kvsetkeys}   {2022-10-05 v1.19}
+  *{package}{logreq}      {2010/08/04 v1.0}
+  *{file}   {logreq.def}  {2010/08/04 v1.0}
+  *{package}{ifthen}      {2022/04/13 v1.1d}
+  *{package}{url}         {2013/09/16 v3.4}
+  *{file}   {blx-dm.def}  {2023/03/05 v3.19}
+  *{file}   {blx-compat.def}{2023/03/05 v3.19}
+  *{file}   {biblatex.def}{2023/03/05 v3.19}
+  *{file}   {blx-natbib.def}{2023/03/05 v3.19}
+  *{file}   {standard.bbx}{2023/03/05 v3.19}
+  *{file}   {numeric.bbx} {2023/03/05 v3.19}
+  *{file}   {numeric-comp.bbx}{2023/03/05 v3.19}
+  *{file}   {numeric-comp.cbx}{2023/03/05 v3.19}
+  *{file}   {biblatex.cfg}{0000/00/00 v0.0}
+  *{package}{expl3}       {2024-02-20 v3}
+  *{file}   {l3backend-pdftex.def}{2024-02-20 v3}
+  *{package}{blx-case-expl3}{2023/03/05 v3.19}
+  *{package}{xparse}      {2024-02-18 v3}
+  *{package}{amsmath}     {2023/05/13 v2.17o}
+  *{package}{amstext}     {2021/08/26 v2.01}
+  *{package}{amsgen}      {1999/11/30 v2.0}
+  *{package}{amsbsy}      {1999/11/29 v1.2d}
+  *{package}{amsopn}      {2022/04/08 v2.04}
+  *{package}{graphicx}    {2021/09/16 v1.2d}
+  *{package}{graphics}    {2022/03/10 v1.4e}
+  *{package}{trig}        {2021/08/11 v1.11}
+  *{file}   {graphics.cfg}{2016/06/04 v1.11}
+  *{file}   {pdftex.def}  {2022/09/22 v1.2b}
+  *{package}{scrhack}     {2023/07/07 v3.41}
+  *{package}{xpatch}      {2020/03/25 v0.3a}
+  *{package}{xspace}      {2014/10/28 v1.13}
+  *{package}{acronym}     {2020/04/17 v1.47}
+  *{package}{suffix}      {2006/07/15 v1.5a}
+  *{package}{xstring}     {2023/08/22 v1.86}
+  *{package}{relsize}     {2013/03/29 v4.1}
+  *{package}{tabularx}    {2023/07/08 v2.11c}
+  *{package}{array}       {2023/10/16 v2.5g}
+  *{package}{subfig}      {2005/06/28 v1.3}
+  *{package}{caption}     {2023/08/05 v3.6o}
+  *{package}{caption3}    {2023/07/31 v2.4d}
+  *{file}   {caption-koma.sto}{2023/09/08 v2.0e}
+  *{package}{listings}    {2024/02/21 v1.10}
+  *{package}{lstpatch}    {2024/02/21 v1.10}
+  *{package}{lstmisc}     {2024/02/21 v1.10}
+  *{file}   {listings.cfg}{2024/02/21 v1.10}
+  *{file}   {listings.hak}{2023/07/07 v3.41}
+  *{package}{lstlang1}    {2024/02/21 v1.10}
+  *{package}{lstlang2}    {2024/02/21 v1.10}
+  *{package}{lstlang3}    {2024/02/21 v1.10}
+  *{package}{lstlang1}    {2024/02/21 v1.10}
+  *{package}{lstlang2}    {2024/02/21 v1.10}
+  *{package}{lstlang3}    {2024/02/21 v1.10}
+  *{package}{lstlang1}    {2024/02/21 v1.10}
+  *{package}{lstlang2}    {2024/02/21 v1.10}
+  *{package}{lstlang3}    {2024/02/21 v1.10}
+  *{package}{lstmisc}     {2024/02/21 v1.10}
+  *{package}{classicthesis}{2018/06/03 v4.6}
+  *{package}{ifpdf}       {2019/10/25 v3.4}
+  *{package}{ifxetex}     {2019/10/25 v0.7}
+  *{package}{ifluatex}    {2019/10/25 v1.5}
+  *{package}{xcolor}      {2023/11/15 v3.01}
+  *{file}   {color.cfg}   {2016/01/02 v1.6}
+  *{file}   {mathcolor.ltx}{0000/00/00 v0.0}
+  *{file}   {dvipsnam.def}{2016/06/17 v3.0m}
+  *{package}{mathpazo}    {2020/03/25 v9.3}
+  *{package}{beramono}    {2004/01/31 v0.0}
+  *{file}   {ueur.fd}     {2013/01/14 v3.01}
+  *{package}{microtype}   {2023/03/13 v3.1a}
+  *{file}   {microtype-pdftex.def}{2023/03/13 v3.1a}
+  *{file}   {microtype.cfg}{2023/03/13 v3.1a}
+  *{package}{mparhack}    {2021-05-02 v1.5}
+  *{package}{booktabs}    {2020/01/12 v1.61803398}
+  *{package}{textcase}    {2023/07/27 v1.04}
+  *{package}{scrlayer-scrpage}{2023/07/07 v3.41}
+  *{package}{scrlayer}    {2023/07/07 v3.41}
+  *{package}{titlesec}    {2023/10/27 v2.16}
+  *{package}{tocloft}     {2017/08/31 v2.3i}
+  *{package}{scrtime}     {2023/07/07 v3.41}
+  *{package}{prelim2e}    {2020/11/24 v2.0}
+  *{package}{hyperref}    {2024-01-20 v7.01h}
+  *{package}{kvdefinekeys}{2019-12-19 v1.6}
+  *{package}{pdfescape}   {2019/12/09 v1.15}
+  *{package}{hycolor}     {2020-01-27 v1.10}
+  *{package}{auxhook}     {2019-12-17 v1.6}
+  *{package}{nameref}     {2023-11-26 v2.56}
+  *{package}{refcount}    {2019/12/15 v3.6}
+  *{package}{gettitlestring}{2019/12/15 v1.6}
+  *{file}   {pd1enc.def}  {2024-01-20 v7.01h}
+  *{package}{intcalc}     {2019/12/15 v1.3}
+  *{file}   {puenc.def}   {2024-01-20 v7.01h}
+  *{package}{bitset}      {2019/12/09 v1.3}
+  *{package}{bigintcalc}  {2019/12/15 v1.5}
+  *{package}{atbegshi-ltx}{2021/01/10 v1.0c}
+  *{file}   {hpdftex.def} {2024-01-20 v7.01h}
+  *{package}{atveryend-ltx}{2020/08/19 v1.0a}
+  *{package}{rerunfilecheck}{2022-07-10 v1.10}
+  *{package}{uniquecounter}{2019/12/15 v1.4}
+  *{package}{float}       {2001/11/08 v1.3d}
+  *{file}   {float.hak}   {2023/07/07 v3.41}
+  *{package}{adjustbox}   {2022/10/17 v1.3a}
+  *{package}{xkeyval}     {2022/06/16 v2.9}
+  *{file}   {xkeyval.tex} {2014/12/03 v2.7a}
+  *{package}{adjcalc}     {2012/05/16 v1.1}
+  *{package}{trimclip}    {2020/08/19 v1.2}
+  *{package}{collectbox}  {2022/10/17 v0.4c}
+  *{file}   {tc-pdftex.def}{2019/01/04 v2.2}
+  *{package}{ifoddpage}   {2022/10/18 v1.2}
+  *{package}{varwidth}    {2009/03/30 v0.92;}
+  *{file}   {t1pplj.fd}   {2004/09/06 v1/pplj.}
+  *{file}   {ot1pplx.fd}  {2004/09/06 v1/pplx.}
+  *{file}   {omlzplm.fd}  {2002/09/08 v1.914}
+  *{file}   {omszplm.fd}  {2002/09/08 v1.914}
+  *{file}   {omxzplm.fd}  {2002/09/08 v1.914}
+  *{file}   {ot1zplm.fd}  {2002/09/08 v1.914}
+  *{file}   {ts1pplj.fd}  {2004/09/06 v1/pplj.}
+  *{file}   {t1fvm.fd}    {2004/09/07 v1/fvm.}
+  *{-------}{Document-specific files:}{----}
+  *{file}   {english.lbx} {2023/03/05 v3.19}
+  *{file}   {american.lbx}{2023/03/05 v3.19}
+  *{file}   {german.lbx}  {2023/03/05 v3.19}
+  *{file}   {ngerman.lbx} {2023/03/05 v3.19}
+  *{file}   {ClassicThesis.bbl}{0000/00/00 v0.0}
+  *{file}   {supp-pdf.mkii}{0000/00/00 v0.0}
+  *{package}{epstopdf-base}{2020-01-24 v2.11}
+  *{file}   {epstopdf-sys.cfg}{2021/03/18 v2.0}
+  *{file}   {mt-ppl.cfg}  {2005/11/16 v1.6}
+  *{file}   {ClassicThesis.out}{0000/00/00 v0.0}
+  *{file}   {ClassicThesis.out}{0000/00/00 v0.0}
+  *{package}{bookmark}    {2023-12-10 v1.31}
+  *{file}   {bkm-pdftex.def}{2023-12-10 v1.31}
+  *{file}   {FrontBackmatter/DirtyTitlepage.tex}{0000/00/00 v0.0}
+  *{file}   {FrontBackmatter/Titlepage.tex}{0000/00/00 v0.0}
+  *{file}   {gfx/cardiff_logo-eps-converted-to.pdf}{0000/00/00 v0.0}
+  *{file}   {FrontBackmatter/Titleback.tex}{0000/00/00 v0.0}
+  *{file}   {FrontBackmatter/Dedication.tex}{0000/00/00 v0.0}
+  *{file}   {FrontBackmatter/Abstract.tex}{0000/00/00 v0.0}
+  *{file}   {FrontBackmatter/Publications.tex}{0000/00/00 v0.0}
+  *{file}   {FrontBackmatter/Acknowledgments.tex}{0000/00/00 v0.0}
+  *{file}   {FrontBackmatter/Contents.tex}{0000/00/00 v0.0}
+  *{file}   {Chapters/Chapter01.tex}{0000/00/00 v0.0}
+  *{file}   {Chapters/Chapter02.tex}{0000/00/00 v0.0}
+  *{file}   {gfx/example_1.jpg}{0000/00/00 v0.0}
+  *{file}   {gfx/example_2.jpg}{0000/00/00 v0.0}
+  *{file}   {gfx/example_3.jpg}{0000/00/00 v0.0}
+  *{file}   {gfx/example_4.jpg}{0000/00/00 v0.0}
+  *{file}   {Chapters/Chapter03.tex}{0000/00/00 v0.0}
+  *{file}   {Chapters/Chapter0A.tex}{0000/00/00 v0.0}
+  *{package}{lstlang1}    {2024/02/21 v1.10}
+  *{file}   {FrontBackmatter/Bibliography.tex}{0000/00/00 v0.0}
+  *{file}   {FrontBackmatter/Declaration.tex}{0000/00/00 v0.0}
+  *{file}   {FrontBackmatter/Colophon.tex}{0000/00/00 v0.0}
+}
