@@ -152,6 +152,8 @@
 \definecolor{halfgray}{gray}{0.55} % chapter numbers will be semi transparent .5 .55 .6 .0
 \definecolor{webgreen}{rgb}{0,0.5,0}
 \definecolor{webbrown}{rgb}{0.6,0,0}
+\definecolor{richblack}{cmyk}{0,0,0,90}
+\definecolor{richwhite}{cmyk}{0,0,0,1}
 
 % ********************************************************************
 % Font Stuff
@@ -272,7 +274,7 @@
 % thanks to Lorenzo Pantieri and Enrico Gregorio
 \def\graffito@setup{%
 %   \slshape\footnotesize% this was due to \slhape in above book
-   \itshape\footnotesize\leavevmode\color{Black}%
+   \itshape\footnotesize\leavevmode\color{richblack}%
    \parindent=0pt \lineskip=0pt \lineskiplimit=0pt %
    \tolerance=2000 \hyphenpenalty=300 \exhyphenpenalty=300%
    \doublehyphendemerits=100000%
@@ -372,7 +374,7 @@
     \titleformat{\part}[display]
     {\normalfont\ct@altfont\centering\large}%
     {\thispagestyle{empty}\partname~\MakeTextUppercase{\thepart}}{1em}%
-    {\color{CTtitle}\spacedallcaps}[\bigskip\normalfont\normalsize\color{Black}\begin{quote}\ctparttext@print\end{quote}]
+    {\color{CTtitle}\spacedallcaps}[\bigskip\normalfont\normalsize\color{richblack}\begin{quote}\ctparttext@print\end{quote}]
 }{\relax}
 % chapters
 \ifthenelse{\boolean{ct@linedheaders}}%
